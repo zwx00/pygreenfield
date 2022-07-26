@@ -1,0 +1,14 @@
+# CustodianAccountData
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **str** | The unique code of the customer&#x27;s account with this custodian. The format depends on the custodian. | [optional] 
+**store_id** | **str** | The store ID. | [optional] 
+**custodian_code** | **str** | The code for the custodian. | [optional] 
+**name** | **str** | The name of the custodian account. | [optional] 
+**asset_balances** | [**list[AssetBalanceData]**](AssetBalanceData.md) | A real-time loaded list of all assets (fiat and crypto) on this custodian and the quantity held in the account. Assets with qty 0 can be omitted. | [optional] 
+**config** | **object** | The configuration of this custodian account. Specific contents depend on the custodian and your access permissions. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
