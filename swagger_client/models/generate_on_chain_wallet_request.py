@@ -49,7 +49,7 @@ class GenerateOnChainWalletRequest(object):
         'script_pub_key_type': 'scriptPubKeyType'
     }
 
-    def __init__(self, existing_mnemonic=None, passphrase=None, account_number=0, save_private_keys=False, import_keys_to_rpc=False, word_list='English', word_count=Word_countEnum._12, script_pub_key_type='Segwit'):  # noqa: E501
+    def __init__(self, existing_mnemonic=None, passphrase=None, account_number=0, save_private_keys=False, import_keys_to_rpc=False, word_list='English', word_count=12, script_pub_key_type='Segwit'):  # noqa: E501
         """GenerateOnChainWalletRequest - a model defined in Swagger"""  # noqa: E501
         self._existing_mnemonic = None
         self._passphrase = None
