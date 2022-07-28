@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.application_server_info_data import ApplicationServerInfoData  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.application_server_info_data import ApplicationServerInfoData  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestApplicationServerInfoData(unittest.TestCase):

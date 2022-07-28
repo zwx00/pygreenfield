@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.store_user_data import StoreUserData  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.store_user_data import StoreUserData  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestStoreUserData(unittest.TestCase):

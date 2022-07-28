@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.offchain_balance_data import OffchainBalanceData  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.offchain_balance_data import OffchainBalanceData  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestOffchainBalanceData(unittest.TestCase):

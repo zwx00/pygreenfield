@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.ledger_entry_type import LedgerEntryType  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.ledger_entry_type import LedgerEntryType  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestLedgerEntryType(unittest.TestCase):

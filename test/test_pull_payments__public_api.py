@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.pull_payments__public_api import PullPaymentsPublicApi  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.api.pull_payments__public_api import PullPaymentsPublicApi  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestPullPaymentsPublicApi(unittest.TestCase):

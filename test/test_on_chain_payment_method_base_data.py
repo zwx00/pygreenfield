@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.on_chain_payment_method_base_data import OnChainPaymentMethodBaseData  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.on_chain_payment_method_base_data import OnChainPaymentMethodBaseData  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestOnChainPaymentMethodBaseData(unittest.TestCase):

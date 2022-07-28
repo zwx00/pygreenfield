@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.webhook_data_base_authorized_events import WebhookDataBaseAuthorizedEvents  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.webhook_data_base_authorized_events import WebhookDataBaseAuthorizedEvents  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestWebhookDataBaseAuthorizedEvents(unittest.TestCase):

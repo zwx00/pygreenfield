@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.lightning_network_payment_method_base_data import LightningNetworkPaymentMethodBaseData  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.lightning_network_payment_method_base_data import LightningNetworkPaymentMethodBaseData  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestLightningNetworkPaymentMethodBaseData(unittest.TestCase):

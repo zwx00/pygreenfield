@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_payout_request import CreatePayoutRequest  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.create_payout_request import CreatePayoutRequest  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestCreatePayoutRequest(unittest.TestCase):

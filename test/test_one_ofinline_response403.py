@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.one_ofinline_response403 import OneOfinlineResponse403  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.one_ofinline_response403 import OneOfinlineResponse403  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestOneOfinlineResponse403(unittest.TestCase):

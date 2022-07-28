@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.crypto_code_preview_body import CryptoCodePreviewBody  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.crypto_code_preview_body import CryptoCodePreviewBody  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestCryptoCodePreviewBody(unittest.TestCase):

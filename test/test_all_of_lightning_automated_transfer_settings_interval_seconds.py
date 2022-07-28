@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.all_of_lightning_automated_transfer_settings_interval_seconds import AllOfLightningAutomatedTransferSettingsIntervalSeconds  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.all_of_lightning_automated_transfer_settings_interval_seconds import AllOfLightningAutomatedTransferSettingsIntervalSeconds  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestAllOfLightningAutomatedTransferSettingsIntervalSeconds(unittest.TestCase):

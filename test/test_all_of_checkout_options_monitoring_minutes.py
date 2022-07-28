@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.all_of_checkout_options_monitoring_minutes import AllOfCheckoutOptionsMonitoringMinutes  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.all_of_checkout_options_monitoring_minutes import AllOfCheckoutOptionsMonitoringMinutes  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestAllOfCheckoutOptionsMonitoringMinutes(unittest.TestCase):

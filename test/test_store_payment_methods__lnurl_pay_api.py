@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.store_payment_methods__lnurl_pay_api import StorePaymentMethodsLNURLPayApi  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.api.store_payment_methods__lnurl_pay_api import StorePaymentMethodsLNURLPayApi  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestStorePaymentMethodsLNURLPayApi(unittest.TestCase):

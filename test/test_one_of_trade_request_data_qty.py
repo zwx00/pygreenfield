@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.one_of_trade_request_data_qty import OneOfTradeRequestDataQty  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.one_of_trade_request_data_qty import OneOfTradeRequestDataQty  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestOneOfTradeRequestDataQty(unittest.TestCase):

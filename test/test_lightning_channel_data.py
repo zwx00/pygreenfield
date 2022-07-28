@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.lightning_channel_data import LightningChannelData  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.lightning_channel_data import LightningChannelData  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestLightningChannelData(unittest.TestCase):

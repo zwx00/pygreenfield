@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.lnurl_pay_payment_method_data_list import LNURLPayPaymentMethodDataList  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.lnurl_pay_payment_method_data_list import LNURLPayPaymentMethodDataList  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestLNURLPayPaymentMethodDataList(unittest.TestCase):

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.webhook_invoice_expired_event import WebhookInvoiceExpiredEvent  # noqa: E501
-from swagger_client.rest import ApiException
+import pygreenfield
+from pygreenfield.models.webhook_invoice_expired_event import WebhookInvoiceExpiredEvent  # noqa: E501
+from pygreenfield.rest import ApiException
 
 
 class TestWebhookInvoiceExpiredEvent(unittest.TestCase):
