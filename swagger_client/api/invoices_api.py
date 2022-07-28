@@ -125,7 +125,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices/{invoiceId}/payment-methods/{paymentMethod}/activate', 'POST',
@@ -228,7 +228,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices/{invoiceId}', 'DELETE',
@@ -335,7 +335,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices', 'POST',
@@ -438,7 +438,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices/{invoiceId}', 'GET',
@@ -545,7 +545,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices/{invoiceId}/payment-methods', 'GET',
@@ -657,7 +657,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices', 'GET',
@@ -772,7 +772,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices/{invoiceId}/status', 'POST',
@@ -875,7 +875,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices/{invoiceId}/unarchive', 'POST',
@@ -990,7 +990,7 @@ class InvoicesApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/invoices/{invoiceId}', 'PUT',

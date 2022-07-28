@@ -97,7 +97,7 @@ class UsersApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/users', 'GET',
@@ -188,7 +188,7 @@ class UsersApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/users/{idOrEmail}', 'DELETE',
@@ -279,7 +279,7 @@ class UsersApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/users/{idOrEmail}', 'GET',
@@ -378,7 +378,7 @@ class UsersApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/users/{idOrEmail}/lock', 'DELETE',
@@ -477,7 +477,7 @@ class UsersApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/users', 'POST',
@@ -560,7 +560,7 @@ class UsersApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/users/me', 'DELETE',
@@ -647,7 +647,7 @@ class UsersApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/users/me', 'GET',

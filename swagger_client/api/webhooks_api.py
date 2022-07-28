@@ -121,7 +121,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks', 'POST',
@@ -220,7 +220,7 @@ class WebhooksApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks/{webhookId}', 'DELETE',
@@ -331,7 +331,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks/{webhookId}/deliveries/{deliveryId}', 'GET',
@@ -442,7 +442,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks/{webhookId}/deliveries/{deliveryId}/redeliver', 'POST',
@@ -553,7 +553,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks/{webhookId}/deliveries/{deliveryId}/request', 'GET',
@@ -660,7 +660,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks/{webhookId}/deliveries', 'GET',
@@ -775,7 +775,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks/{webhookId}', 'PUT',
@@ -878,7 +878,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks/{webhookId}', 'GET',
@@ -973,7 +973,7 @@ class WebhooksApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/webhooks', 'GET',

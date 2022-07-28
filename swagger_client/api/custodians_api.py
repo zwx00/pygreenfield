@@ -125,7 +125,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}/addresses/{paymentMethod}', 'GET',
@@ -208,7 +208,7 @@ class CustodiansApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}', 'DELETE',
@@ -313,7 +313,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}', 'GET',
@@ -412,7 +412,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}', 'PUT',
@@ -523,7 +523,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}/trades/market', 'POST',
@@ -642,7 +642,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}/trades/quote', 'GET',
@@ -757,7 +757,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}/withdrawals', 'POST',
@@ -868,7 +868,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts/{accountId}/withdrawals/{withdrawalId}', 'POST',
@@ -965,7 +965,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts', 'GET',
@@ -1064,7 +1064,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/custodian-accounts', 'POST',
@@ -1151,7 +1151,7 @@ class CustodiansApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/custodians', 'GET',

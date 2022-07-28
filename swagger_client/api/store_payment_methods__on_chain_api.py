@@ -117,7 +117,7 @@ class StorePaymentMethodsOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}', 'DELETE',
@@ -232,7 +232,7 @@ class StorePaymentMethodsOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/generate', 'POST',
@@ -335,7 +335,7 @@ class StorePaymentMethodsOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}', 'GET',
@@ -446,7 +446,7 @@ class StorePaymentMethodsOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/OnChain/{cryptoCode}/preview', 'GET',
@@ -545,7 +545,7 @@ class StorePaymentMethodsOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/OnChain', 'GET',
@@ -668,7 +668,7 @@ class StorePaymentMethodsOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/OnChain/{cryptoCode}/preview', 'POST',
@@ -783,7 +783,7 @@ class StorePaymentMethodsOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}', 'PUT',

@@ -129,7 +129,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/connect', 'POST',
@@ -244,7 +244,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/invoices', 'POST',
@@ -347,7 +347,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/balance', 'GET',
@@ -450,7 +450,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/channels', 'GET',
@@ -553,7 +553,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/address', 'POST',
@@ -656,7 +656,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/info', 'GET',
@@ -767,7 +767,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/invoices/{id}', 'GET',
@@ -878,7 +878,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/payments/{paymentHash}', 'GET',
@@ -993,7 +993,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/channels', 'POST',
@@ -1108,7 +1108,7 @@ class LightningStoreApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/lightning/{cryptoCode}/invoices/pay', 'POST',

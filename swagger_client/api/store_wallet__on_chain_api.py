@@ -129,7 +129,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/transactions', 'POST',
@@ -236,7 +236,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/feerate', 'GET',
@@ -343,7 +343,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/address', 'GET',
@@ -454,7 +454,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/transactions/{transactionId}', 'GET',
@@ -557,7 +557,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/utxos', 'GET',
@@ -680,7 +680,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/transactions/{transactionId}', 'PATCH',
@@ -783,7 +783,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet', 'GET',
@@ -903,7 +903,7 @@ class StoreWalletOnChainApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/transactions', 'GET',
@@ -1002,7 +1002,7 @@ class StoreWalletOnChainApi(object):
 
         body_params = None
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/onchain/{cryptoCode}/wallet/address', 'DELETE',

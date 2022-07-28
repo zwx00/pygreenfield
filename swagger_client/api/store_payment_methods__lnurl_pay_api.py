@@ -117,7 +117,7 @@ class StorePaymentMethodsLNURLPayApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/LNURL/{cryptoCode}', 'DELETE',
@@ -220,7 +220,7 @@ class StorePaymentMethodsLNURLPayApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/LNURL/{cryptoCode}', 'GET',
@@ -319,7 +319,7 @@ class StorePaymentMethodsLNURLPayApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/LNURL', 'GET',
@@ -434,7 +434,7 @@ class StorePaymentMethodsLNURLPayApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['API_Key', 'Basic']  # noqa: E501
+        auth_settings = ['API_Key']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/stores/{storeId}/payment-methods/LNURL/{cryptoCode}', 'PUT',
